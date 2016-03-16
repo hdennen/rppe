@@ -363,6 +363,7 @@ ul{
 .intro-5{
 	background:url(../images/grass.jpg);
 	background-repeat: no-repeat;
+	background-attachment: fixed;
   background-size: cover;
 	padding-top:140px;
 	padding-bottom:180px;
