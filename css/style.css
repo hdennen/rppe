@@ -361,7 +361,7 @@ ul{
 
 /**  Intro-5  **/
 .intro-5{
-	background:url(../images/nopests.png) repeat;
+	background:url(../images/bg_garden.jpg) cover;
 	padding-top:140px;
 	padding-bottom:180px;
 	text-align:right;
