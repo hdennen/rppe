@@ -3171,25 +3171,8 @@ address, p{
 .services-4 .row {
     padding-top: 40px;
 }
-.dont-break-out {
 
-  /* These are technically the same, but use both */
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 
-  -ms-word-break: break-all;
-  /* This is the dangerous one in WebKit, as it breaks things wherever */
-  word-break: break-all;
-  /* Instead use this non-standard one: */
-  word-break: break-word;
-
-  /* Adds a hyphen where the word breaks, if supported (No Blink) */
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
-
-}
 .top-bar ul.top-socials.pull-right {
   padding: 8px 0px;
 }
@@ -3209,6 +3192,25 @@ div#page {
 }
 
 @media (max-width: 991px) {
+	.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+	}
 	.navbar-default .navbar-nav > li > a{padding:35px 10px; font-size:12px;}
 	.header-2 .welcome-1 {padding-bottom: 0px;padding-top:55px;position: relative;text-align: right;}
 	.header-2 .welcome-1 .desk{position:relative;width:100%;top:0px;left:-52px;}
